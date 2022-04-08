@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>com.exidex.linux-keymap-for-mac</id>
+    <name>Linux Keymap For MacOS</name>
+    <vendor>Exidex</vendor>
+
+    <description><![CDATA[
+        Linux shortcuts for MacOS, everything is the same but control (control and ctrl) swapped to command (meta)
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledKeymap file="Linux for MacOS.xml" />
+    </extensions>
+
+    <actions/>
+</idea-plugin>
